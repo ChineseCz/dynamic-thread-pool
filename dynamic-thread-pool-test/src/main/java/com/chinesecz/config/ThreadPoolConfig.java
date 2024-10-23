@@ -1,4 +1,4 @@
-package com.chinese.config;
+package com.chinesecz.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

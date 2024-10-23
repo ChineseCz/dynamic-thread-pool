@@ -1,4 +1,4 @@
-package com.chinese;
+package com.chinesecz;
 
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.boot.SpringApplication;

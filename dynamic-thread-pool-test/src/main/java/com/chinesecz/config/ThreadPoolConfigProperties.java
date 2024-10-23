@@ -1,4 +1,4 @@
-package com.chinese.config;
+package com.chinesecz.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
