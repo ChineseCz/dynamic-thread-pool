@@ -78,7 +78,7 @@ public class DynamicThreadPoolAutoConfig {
         if (StringUtils.isBlank(applicationName)) {
             logger.warn("无应用名称");
         }
-        // 获取缓存数据，设置本地线程池配置
+        // 获取缓存数据，设置本地线程池配置, 就是继承上一次
         Set<String> threadPoolKeys = threadPoolExecutorMap.keySet();
         for (String threadPoolKey : threadPoolKeys) {
             ThreadPoolConfigEntity threadPoolConfigEntity = redissonClient.<ThreadPoolConfigEntity>getBucket(RegistryEnumVO.THREAD_POOL_CONFIG_PARAMETER_LIST_KEY.getKey() + "_" + applicationName + "_" + threadPoolKey).get();

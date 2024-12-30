@@ -9,8 +9,10 @@ import java.util.List;
 
 public interface IRegistry {
 
-    void reportThreadPool(List<ThreadPoolConfigEntity> threadPoolEntities);
 
+    //上报线程池
+    void reportThreadPool(List<ThreadPoolConfigEntity> threadPoolEntities);
+    //上报线程池参数
     void reportThreadPoolConfigParameter(ThreadPoolConfigEntity threadPoolConfigEntity);
 
 }
