@@ -21,7 +21,9 @@
 ```bash
  mvn install 
  ```
-3. 本地maven安装后，即可在其他工程中引入依赖
+3. 本地maven安装后，即可在其他工程中引入依赖  
+![image](https://github.com/user-attachments/assets/17972e74-51e8-4a9e-a67d-5c289c250216)
+![image](https://github.com/user-attachments/assets/6ac2692e-4f10-4e63-a1b4-23dd42680625)
 
 ## 使用说明
 主要源码目录简介：     
